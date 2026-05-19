@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-Item *)",
+      "Bash(python *)",
+      "Bash(Select-Object -Unique)",
+      "Bash(pip install *)",
+      "WebSearch"
+    ]
+  }
+}
