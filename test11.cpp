@@ -1,6 +1,6 @@
 // C++ 常用容器入门教学
 // 编译: g++ -std=c++11 test11.cpp -o test11 && ./test11
-
+//新改动
 #include <iostream>
 #include <vector>
 #include <list>
@@ -140,7 +140,7 @@ void demo_list() {
 // 特点: 像 vector 但头尾插入都快
 // 适用: 需要频繁在头尾操作
 void demo_deque() {
-    sep("deque — 双端队列");
+    sep("deque —- 双端队列");
 
     std::deque<int> d;
 
